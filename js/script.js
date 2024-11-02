@@ -1,0 +1,59 @@
+window.onload = function () {
+  const swiper = new Swiper(".swiper", {
+    slidesPerView: "auto",
+    spaceBetween: 10,
+    direction: "horizontal",
+    loop: true,
+    centeredSlides: true,
+    loopAdditionalSlides: 1,
+
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    speed: 1000,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+  });
+
+  // 言語切り替えリンク
+  const jpLink = document.getElementById("jp-link");
+  const enLink = document.getElementById("en-link");
+  const languageLinks = document.querySelectorAll(".language-link");
+
+  jpLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    toggleContent("jp");
+    setActiveLink(jpLink);
+  });
+
+  enLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    toggleContent("en");
+    setActiveLink(enLink);
+  });
+
+  // コンテンツの表示を切り替える関数
+  function toggleContent(language) {
+    document.querySelector(".jp-content").style.display =
+      language === "jp" ? "block" : "none";
+    document.querySelector(".en-content").style.display =
+      language === "en" ? "block" : "none";
+  }
+
+  // 選択されたリンクにスタイルを適用する関数
+  function setActiveLink(activeLink) {
+    languageLinks.forEach((link) => link.classList.remove("active-link"));
+    activeLink.classList.add("active-link");
+  }
+
+  toggleContent("jp");
+};
