@@ -65,7 +65,7 @@ a {
   .language-switcher {
     position: fixed;
     top: 10px;
-    right: 100px;
+    right: 10px;
     display: flex;
     gap: 10px;
     font-size: 14px;
@@ -132,10 +132,34 @@ a {
   text-align: center;
 }
 .message p {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 24px;
   letter-spacing: 2px;
   text-indent: 2px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .top-message img {
+    width: 80px;
+  }
+
+  .top-message {
+    padding-top: 25px;
+  }
+
+  .message h1 {
+    font-size: 36px;
+    letter-spacing: 10px;
+    text-indent: 29px;
+    text-align: center;
+  }
+  .message p {
+    margin-top: 16px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-indent: 2px;
+  }
 }
 
 .concept {
@@ -173,16 +197,27 @@ a {
 }
 
 @media (max-width: 768px) {
+  .concept {
+    background-color: black;
+    color: #6d5e38;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 400;
+    padding-bottom: 36px;
+  }
+
   .concept-header {
-    font-size: 28px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 2.5rem;
   }
   .concept-text {
-    font-size: 20px;
+    padding-top: 12px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
   }
-  .concept {
-    padding-top: 80px;
-    padding-bottom: 60px;
-  }
+
   .concept-image img {
     width: 86%;
     max-width: none;
@@ -289,11 +324,11 @@ a {
 
   .service-header h1 {
     color: #80714c;
-    font-size: 32px;
-    border-bottom: solid #80714c 1.5px;
-    padding-bottom: 5px;
+    font-size: 22px;
+    border-bottom: solid #80714c 1.8px;
+    padding-bottom: 12px;
     display: inline-block;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 2px;
   }
 
@@ -317,7 +352,7 @@ a {
     position: inherit;
     top: unset;
     transform: translate(0%, 0%);
-    width: 86%;
+    width: 90%;
     padding: 10px;
     margin-left: unset;
     margin: 0 auto;
@@ -327,9 +362,9 @@ a {
   .service-message p {
     margin-top: 10px;
     color: #111111;
-    font-size: 18px;
-    line-height: 36px;
-    font-weight: 100;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 200;
     text-align: left;
   }
 
@@ -356,24 +391,24 @@ a {
     margin-top: 50px;
     margin-bottom: 30px;
     display: inline-block;
-    width: 360px;
-    padding: 20px 26px;
+    width: 240px;
+    padding: 14px 22px;
     border: 1px solid #80714c;
-    font-size: 18px;
+    font-size: 14px;
     color: #80714c;
     text-align: center;
   }
 
   .service-message a span {
-    padding-left: 40px;
+    padding-left: 24px;
     position: relative;
   }
 
   .service-message a span:before {
     content: "";
     display: block;
-    width: 22px;
-    height: 22px;
+    width: 14px;
+    height: 14px;
     background-image: url(../image/download.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -397,6 +432,13 @@ hr {
   color: #dedbcc;
   max-width: 1440px;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  hr {
+    height: 1px;
+    width: 90%;
+  }
 }
 
 .portrait-image-container {
@@ -454,22 +496,22 @@ hr {
   .portrait-image-container {
     margin: 0 auto;
     max-width: 1440px;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 40px;
     text-align: center;
   }
 
   .portrait-image-container > div:first-child {
-    margin-left: 50px;
+    margin-left: unset;
   }
 
   .portrait-image h1 {
     color: #80714c;
-    font-size: 32px;
-    border-bottom: solid #80714c 1.5px;
-    padding-bottom: 5px;
+    font-size: 22px;
+    border-bottom: solid #80714c 1.8px;
+    padding-bottom: 12px;
     display: inline-block;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 2px;
   }
 
@@ -478,11 +520,11 @@ hr {
   }
 
   .swiper-box {
-    padding-top: 60px;
+    padding-top: 20px;
   }
 
   .swiper-slide {
-    width: 400px;
+    width: 300px;
     justify-content: center;
     margin: 20px;
   }
@@ -607,33 +649,33 @@ hr {
 @media (max-width: 768px) {
   .staff {
     background-color: #edf0ea;
-    padding-top: 60px;
+    padding-top: 50px;
     height: unset;
   }
   .staff-container {
     max-width: unset;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
   }
 
   .staff-container h1 {
     color: #80714c;
-    font-size: 32px;
-    border-bottom: solid #80714c 1.5px;
-    padding-bottom: 5px;
+    font-size: 22px;
+    border-bottom: solid #80714c 1.8px;
+    padding-bottom: 12px;
     display: inline-block;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 2px;
   }
 
   .staff-container .grid {
     padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0px;
+    gap: 12px;
     justify-items: center;
     align-items: start;
   }
@@ -642,7 +684,7 @@ hr {
     color: #fff;
     padding: unset;
     /* height: 560px; */
-    width: 95%;
+    width: 98%;
     text-align: left;
     padding-bottom: 20px;
   }
@@ -663,20 +705,20 @@ hr {
 
   .profile h2 {
     color: #80714c;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .profile h3 {
     padding-top: 6px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     color: #111111;
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .profile div {
     color: #111111;
-    font-size: 13px;
-    line-height: 21px;
+    font-size: 12px;
+    line-height: 22px;
   }
 
   .staff-works-link {
@@ -817,15 +859,15 @@ hr {
     direction: column;
     justify-content: space-between;
     position: relative;
-    gap: 20px;
+    gap: 14px;
   }
 
   .connect-line {
     position: absolute;
     top: 80px;
-    left: 25px;
+    left: 20px;
     width: 1px;
-    height: 780px;
+    height: 700px;
     background-color: #d9d3c4;
   }
 
@@ -840,10 +882,10 @@ hr {
   }
 
   .diamond {
-    width: 50px;
-    height: 50px;
-    min-width: 50px;
-    min-height: 50px;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
     background-color: #d9d3c4;
     color: #80714c;
     font-size: 18px;
@@ -858,7 +900,7 @@ hr {
 
   .step p {
     color: #80714c;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 1.8;
     white-space: nowrap;
     height: 100px;
@@ -867,12 +909,12 @@ hr {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 40px;
     flex-direction: column;
   }
 
   .step p span {
-    font-size: 76%;
+    font-size: 68%;
     line-height: 1.2;
     width: 86%;
     display: inline;
@@ -881,8 +923,6 @@ hr {
     text-align: left;
   }
 }
-
-/* aaaaaaa */
 
 .contact {
   height: 600px;
@@ -955,18 +995,73 @@ hr {
 }
 
 @media (max-width: 768px) {
-  .contact-container a {
-    margin-top: 80px;
+  .contact {
+    height: unset;
+    background-color: #edf0ea;
+  }
+
+  .contact-container {
+    max-width: 1200px;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .contact-container h1 {
+    color: #80714c;
+    font-size: 22px;
+    border-bottom: solid #80714c 1.8px;
+    padding-bottom: 12px;
     display: inline-block;
-    width: 380px;
-    padding: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  .contact-container p {
+    margin-top: 40px;
+    color: #80714c;
+    line-height: 26px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 100;
+  }
+  .contact-container a {
+    margin-top: 30px;
+    display: inline-block;
+    width: 260px;
+    padding: 16px;
     border: 1px solid #80714c;
-    font-size: 20px;
+    font-size: 13px;
     color: #80714c;
     text-align: center;
     position: relative;
     text-decoration: none;
     background-color: white;
+  }
+  .contact-container a span {
+    padding-left: 30px;
+    position: relative;
+  }
+
+  .contact-container a span:before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../image/works.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+
+  .contact-container a:hover {
+    background-color: #80714c;
+    color: white;
+    transition: 0.2s;
   }
 }
 
@@ -1123,7 +1218,8 @@ hr {
   .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 70px;
   }
   .footer-top {
     display: flex;
@@ -1149,7 +1245,7 @@ hr {
   }
 
   .footer-logo img {
-    width: 150px;
+    width: 110px;
     margin: 0 auto;
   }
 
@@ -1166,9 +1262,9 @@ hr {
   }
 
   .footer-menu li {
-    font-size: 20px;
-    margin-bottom: 24px;
-    letter-spacing: 3px;
+    font-size: 15px;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
     font-weight: 400;
   }
 
@@ -1213,8 +1309,8 @@ hr {
   }
 
   .to-top img {
-    width: 60px;
-    height: 60px;
+    width: 46px;
+    height: 46px;
   }
 
   .to-top img:hover {
@@ -1225,7 +1321,7 @@ hr {
 
   .footer-bottom {
     margin-top: 30px;
-    padding: 10px;
+    padding: unset;
     height: unset;
     display: flex;
     justify-content: space-between;
@@ -1234,15 +1330,15 @@ hr {
 
   .footer-links {
     display: flex;
-    gap: 30px;
-    font-size: 16px;
+    gap: 26px;
+    font-size: 12px;
     letter-spacing: 2px;
     flex-direction: column;
     font-weight: 400;
   }
 
   .footer-links img {
-    width: 130px;
+    width: 110px;
   }
 
   .footer-links img:hover {
@@ -1251,16 +1347,15 @@ hr {
   }
 
   .footer-info {
-    margin-top: 50px;
-    font-size: 15px;
+    margin-top: 40px;
+    font-size: 12px;
     text-align: center;
   }
 
   .footer-info span {
-    font-size: 12px;
+    font-size: 9px;
     padding-left: unset;
-    padding: 40px;
-    margin-top: 10px;
+    padding-top: 20px;
     display: inline-block;
   }
   .footer-bottom-images {
@@ -1268,6 +1363,9 @@ hr {
     align-items: flex-start;
     justify-content: center;
     gap: 20px;
+  }
+  .footer-bottom-images a {
+    line-height: 15px;
   }
 }
 
