@@ -473,7 +473,7 @@ hr {
 .swiper-slide {
   width: 600px;
   justify-content: center;
-  margin: 20px;
+  margin: 0px;
 }
 
 .swiper-slide img {
@@ -486,6 +486,7 @@ hr {
   position: inherit;
   text-align: left;
   padding-left: 50px;
+  margin-top: 20px;
 }
 
 .swiper-pagination-bullet-active {
@@ -497,7 +498,7 @@ hr {
     margin: 0 auto;
     max-width: 1440px;
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     text-align: center;
   }
 
@@ -526,7 +527,7 @@ hr {
   .swiper-slide {
     width: 300px;
     justify-content: center;
-    margin: 20px;
+    margin: 0px;
   }
 
   .swiper-slide img {
@@ -538,7 +539,8 @@ hr {
   .swiper-pagination {
     position: inherit;
     text-align: center;
-    padding-left: none;
+    padding-left: unset;
+    margin-top: 20px;
   }
 
   .swiper-pagination-bullet-active {
@@ -1107,8 +1109,8 @@ hr {
 }
 
 .footer-logo img:hover {
-  filter: brightness(0) saturate(100%) invert(71%) sepia(26%) saturate(346%)
-    hue-rotate(19deg) brightness(93%) contrast(92%);
+  /* filter: brightness(0) saturate(100%) invert(71%) sepia(26%) saturate(346%)
+    hue-rotate(19deg) brightness(93%) contrast(92%); */
   /* transition: 0.3s; */
 }
 

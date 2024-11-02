@@ -6,6 +6,7 @@ window.onload = function () {
     loop: true,
     centeredSlides: true,
     loopAdditionalSlides: 1,
+    autoplay: false,
 
     pagination: {
       el: ".swiper-pagination",
@@ -15,12 +16,6 @@ window.onload = function () {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
-    },
-
-    speed: 1000,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
     },
   });
 
