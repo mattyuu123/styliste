@@ -835,39 +835,40 @@ hr {
 @media (max-width: 768px) {
   .flow-container {
     margin: 0 auto;
-    max-width: 1440px;
-    padding-left: 40px;
-    padding-right: 10px;
+    max-width: unset;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
     text-align: center;
   }
 
   .flow-container h1 {
     color: #80714c;
-    font-size: 32px;
-    border-bottom: solid #80714c 1.5px;
-    padding-bottom: 5px;
+    font-size: 22px;
+    border-bottom: solid #80714c 1.8px;
+    padding-bottom: 12px;
     display: inline-block;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 2px;
   }
 
   .flow-line {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     direction: column;
     justify-content: space-between;
     position: relative;
-    gap: 14px;
+    gap: 27px;
   }
 
   .connect-line {
     position: absolute;
     top: 80px;
-    left: 20px;
+    left: 15.5px;
     width: 1px;
-    height: 700px;
+    height: 370px;
     background-color: #d9d3c4;
   }
 
@@ -882,13 +883,13 @@ hr {
   }
 
   .diamond {
-    width: 40px;
-    height: 40px;
-    min-width: 40px;
-    min-height: 40px;
+    width: 31px;
+    height: 31px;
+    min-width: 31px;
+    min-height: 31px;
     background-color: #d9d3c4;
     color: #80714c;
-    font-size: 18px;
+    font-size: 14px;
     display: flex;
     transform: rotate(45deg);
     margin: 0 auto;
@@ -900,10 +901,10 @@ hr {
 
   .step p {
     color: #80714c;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.8;
     white-space: nowrap;
-    height: 100px;
+    height: unset;
     margin-top: 0px;
     width: 100%;
     display: flex;
@@ -911,12 +912,13 @@ hr {
     justify-content: center;
     margin-left: 40px;
     flex-direction: column;
+    letter-spacing: 3px;
   }
 
   .step p span {
-    font-size: 68%;
+    font-size: 72%;
     line-height: 1.2;
-    width: 86%;
+    width: 100%;
     display: inline;
     padding: 0;
     margin: 0;
