@@ -1108,11 +1108,11 @@ hr {
   width: 90px;
 }
 
-.footer-logo img:hover {
-  /* filter: brightness(0) saturate(100%) invert(71%) sepia(26%) saturate(346%)
-    hue-rotate(19deg) brightness(93%) contrast(92%); */
-  /* transition: 0.3s; */
-}
+/* .footer-logo img:hover {
+  filter: brightness(0) saturate(100%) invert(71%) sepia(26%) saturate(346%)
+    hue-rotate(19deg) brightness(93%) contrast(92%);
+  transition: 0.3s;
+} */
 
 .footer-menu {
   text-align: left;
