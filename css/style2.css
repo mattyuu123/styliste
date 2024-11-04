@@ -19,6 +19,27 @@ a {
   display: none;
 }
 
+.section-title {
+  color: #80714c;
+  font-size: 32px;
+  border-bottom: solid #80714c 1.5px;
+  padding-bottom: 12px;
+  display: inline-block;
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+@media (max-width: 768px) {
+  .section-title {
+    color: #80714c;
+    font-size: 22px;
+    border-bottom: solid #80714c 1.8px;
+    padding-bottom: 12px;
+    display: inline-block;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+}
+
 @media (max-width: 768px) {
   .pc-none {
     display: block;
@@ -279,13 +300,13 @@ a {
 }
 
 .service-message h1 {
-  color: #80714c;
+  /* color: #80714c;
   font-size: 32px;
   border-bottom: solid #80714c 1.5px;
   padding-bottom: 5px;
   display: inline-block;
   font-weight: 200;
-  letter-spacing: 2px;
+  letter-spacing: 2px; */
 }
 
 .service-message p {
@@ -351,13 +372,13 @@ a {
   }
 
   .service-header h1 {
-    color: #80714c;
+    /* color: #80714c;
     font-size: 22px;
     border-bottom: solid #80714c 1.8px;
     padding-bottom: 12px;
     display: inline-block;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 2px; */
   }
 
   .service-container {
@@ -481,13 +502,13 @@ hr {
 }
 
 .portrait-image h1 {
-  color: #80714c;
+  /* color: #80714c;
   font-size: 32px;
   border-bottom: solid #80714c 1.5px;
-  padding-bottom: 5px;
+  padding-bottom: 12px;
   display: inline-block;
-  font-weight: 200;
-  letter-spacing: 2px;
+  font-weight: 300;
+  letter-spacing: 6px; */
 }
 
 .swiper {
@@ -535,13 +556,13 @@ hr {
   }
 
   .portrait-image h1 {
-    color: #80714c;
+    /* color: #80714c;
     font-size: 22px;
     border-bottom: solid #80714c 1.8px;
     padding-bottom: 12px;
     display: inline-block;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 2px; */
   }
 
   .swiper {
@@ -588,13 +609,13 @@ hr {
 }
 
 .staff-container h1 {
-  color: #80714c;
+  /* color: #80714c;
   font-size: 32px;
   border-bottom: solid #80714c 1.5px;
-  padding-bottom: 5px;
+  padding-bottom: 12px;
   display: inline-block;
-  font-weight: 200;
-  letter-spacing: 2px;
+  font-weight: 300;
+  letter-spacing: 6px; */
 }
 
 .staff-container .grid {
@@ -690,13 +711,13 @@ hr {
   }
 
   .staff-container h1 {
-    color: #80714c;
+    /* color: #80714c;
     font-size: 22px;
     border-bottom: solid #80714c 1.8px;
     padding-bottom: 12px;
     display: inline-block;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 2px; */
   }
 
   .staff-container .grid {
@@ -788,13 +809,13 @@ hr {
 }
 
 .flow-container h1 {
-  color: #80714c;
+  /* color: #80714c;
   font-size: 32px;
   border-bottom: solid #80714c 1.5px;
-  padding-bottom: 5px;
+  padding-bottom: 12px;
   display: inline-block;
-  font-weight: 200;
-  letter-spacing: 2px;
+  font-weight: 300;
+  letter-spacing: 6px; */
 }
 
 .flow-line {
@@ -873,13 +894,13 @@ hr {
   }
 
   .flow-container h1 {
-    color: #80714c;
+    /* color: #80714c;
     font-size: 22px;
     border-bottom: solid #80714c 1.8px;
     padding-bottom: 12px;
     display: inline-block;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 2px; */
   }
 
   .flow-line {
@@ -976,13 +997,13 @@ hr {
 }
 
 .contact-container h1 {
-  color: #80714c;
+  /* color: #80714c;
   font-size: 32px;
   border-bottom: solid #80714c 1.5px;
-  padding-bottom: 5px;
+  padding-bottom: 12px;
   display: inline-block;
-  font-weight: 200;
-  letter-spacing: 2px;
+  font-weight: 300;
+  letter-spacing: 6px; */
 }
 
 .contact-container p {
@@ -1048,13 +1069,13 @@ hr {
   }
 
   .contact-container h1 {
-    color: #80714c;
+    /* color: #80714c;
     font-size: 22px;
     border-bottom: solid #80714c 1.8px;
     padding-bottom: 12px;
     display: inline-block;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 2px; */
   }
   .contact-container p {
     margin-top: 40px;
